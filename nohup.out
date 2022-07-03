@@ -1,0 +1,392 @@
+receiving file list ... 
+ 100 files...120 files to consider
+drwxrwsr-x        4096 2022/07/03 16:21:44 .
+-rw-rw-r--        4333 2022/07/02 08:19:03 Makefile
+-rw-rw-r--         284 2022/07/02 22:53:38 README.md
+-rw-rw-r--       11755 2022/07/02 08:19:03 README.txt
+-rw-rw-r--         559 2022/07/03 13:03:17 adsorbent.mod
+-rw-rw-r--         427 2022/07/03 13:03:17 atoms.mod
+-rw-rw-r--       37720 2022/07/02 08:19:03 backup_f90_percolation
+-rw-rw-r--        4694 2022/07/02 08:19:03 defaults.f90
+-rw-rw-r--        1468 2022/07/03 13:03:15 defaults.mod
+-rw-rw-r--        1008 2022/07/03 13:03:15 defaults.o
+-rw-rw-r--         353 2022/07/03 13:03:17 distributions.mod
+-rw-rw-r--       39009 2022/07/02 08:19:03 fundcell.f90
+-rw-rw-r--        2446 2022/07/03 13:03:17 fundcell.mod
+-rw-rw-r--       28160 2022/07/03 13:03:17 fundcell.o
+-rw-rw-r--         668 2022/07/03 13:03:17 lattice.mod
+-rw-rw-r--       33238 2022/07/02 08:19:03 matrix.f90
+-rw-rw-r--        2310 2022/07/03 13:03:17 matrix.mod
+-rw-rw-r--       18376 2022/07/03 13:03:17 matrix.o
+-rw-rw-r--        4983 2022/07/02 08:19:03 matrixops.f90
+-rw-rw-r--         693 2022/07/03 13:03:16 matrixops.mod
+-rw-rw-r--        5936 2022/07/03 13:03:17 matrixops.o
+-rw-rw-r--        1216 2022/07/02 08:19:03 molecule.f90
+-rw-rw-r--        8837 2022/07/02 08:19:03 out
+-rw-rw-r--        1237 2022/07/03 13:03:17 parameters.mod
+-rw-rw-r--       36938 2022/07/03 13:03:07 percolation.f90
+-rw-rw-r--         545 2022/07/03 13:03:15 percolation.mod
+-rw-rw-r--       36272 2022/07/03 13:03:16 percolation.o
+-rwxrwxr-x      176912 2022/07/03 13:03:18 poreblazer.exe
+-rw-rw-r--       50337 2022/07/03 12:43:04 poreblazer.f90
+-rw-rw-r--       97696 2022/07/03 13:03:18 poreblazer.o
+-rw-rw-r--        8297 2022/07/02 08:19:03 random.f90
+-rw-rw-r--         578 2022/07/03 13:03:17 random.mod
+-rw-rw-r--        5680 2022/07/03 13:03:17 random.o
+-rw-rw-r--         381 2022/07/03 13:03:17 results.mod
+-rw-rw-r--       72601 2022/07/02 08:19:03 utils.f90
+-rw-rw-r--        4050 2022/07/03 13:03:16 utils.mod
+-rw-rw-r--       63880 2022/07/03 13:03:16 utils.o
+-rw-rw-r--       28227 2022/07/02 08:19:03 vector.f90
+-rw-rw-r--        2385 2022/07/03 13:03:17 vector.mod
+-rw-rw-r--       17496 2022/07/03 13:03:17 vector.o
+drwxr-sr-x        4096 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor
+-rw-rw-r--    17356682 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/Pores.dat
+-rw-rw-r--    17356682 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/Pores_he.dat
+-rw-rw-r--     1284388 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/Pores_ld.dat
+-rw-rw-r--     2056432 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/Pores_n.dat
+-rw-r--r--         692 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/UFF.atoms
+-rw-rw-r--        3650 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/backup.txt
+-rw-rw-r--     2056432 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/backup_Pores_n.dat
+-rw-rw-r--       19300 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/backup_cluster_info.txt
+-rw-rw-r--        4450 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/backup_cluster_info_n.dat
+-rw-rw-r--     1132390 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/backup_pores.dat
+-rw-rw-r--         666 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/backup_spanning_n.dat
+-rw-rw-r--        3875 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/cluster_info.txt
+-rw-rw-r--        3875 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/cluster_info_he.dat
+-rw-rw-r--        2225 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/cluster_info_ld.dat
+-rw-rw-r--        4450 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/cluster_info_n.dat
+-rw-r--r--         546 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/defaults.dat
+-rw-r--r--         116 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/input.dat
+-rw-r--r--      535003 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/membr_rep1.xyz
+-rw-r--r--      261143 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/new.xyz
+-rw-r--r--        3609 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/out
+-rw-r--r--        2796 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/psd.txt
+-rw-r--r--        2924 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/psd_cumulative.txt
+-rw-rw-r--          37 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/spanning_he.dat
+-rw-rw-r--         666 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/spanning_n.dat
+-rw-rw-r--         666 2022/07/02 08:19:03 Membrane_quest_rep1_no_local_ancestor/z_percolated_clusters.dat
+drwxrwsr-x        4096 2022/07/02 21:32:52 dcd_test_polypyrrole
+-rw-rw-r--      995924 2022/07/02 14:29:00 dcd_test_polypyrrole/1ns.dcd
+-rw-rw-r--     2138164 2022/07/02 21:15:15 dcd_test_polypyrrole/Pores_ld.dat
+-rw-rw-r--     1821722 2022/07/02 21:15:14 dcd_test_polypyrrole/Pores_n.dat
+-rw-r--r--         692 2022/07/02 08:48:21 dcd_test_polypyrrole/UFF.atoms
+-rw-rw-r--       12750 2022/07/02 21:15:15 dcd_test_polypyrrole/cluster_info_ld.dat
+-rw-rw-r--       17200 2022/07/02 21:15:14 dcd_test_polypyrrole/cluster_info_n.dat
+-rw-r--r--         544 2022/07/02 08:47:35 dcd_test_polypyrrole/defaults.dat
+-rw-rw-r--           1 2022/07/02 21:04:22 dcd_test_polypyrrole/eam.out
+-rw-r--r--          87 2022/07/02 20:53:04 dcd_test_polypyrrole/input.dat
+-rw-r--r--    47791380 2022/07/02 09:23:08 dcd_test_polypyrrole/membrane.dcd
+-rw-r--r--     1119768 2022/07/02 12:12:20 dcd_test_polypyrrole/membrane.xyz
+-rw-rw-r--      850190 2022/07/02 21:04:22 dcd_test_polypyrrole/new.xyz
+-rw-rw-r--        7317 2022/07/02 21:15:15 dcd_test_polypyrrole/poreblazer.log
+-rw-rw-r--        2664 2022/07/02 21:15:14 dcd_test_polypyrrole/spanning_n.dat
+-rw-------         415 2022/07/02 21:17:46 dcd_test_polypyrrole/submit.sh
+drwxrwsr-x        4096 2022/07/02 21:17:07 dcd_test_polypyrrole_1ns
+-rw-rw-r--      995924 2022/07/02 14:29:54 dcd_test_polypyrrole_1ns/1ns.dcd
+-rw-rw-r--     2343229 2022/07/02 21:16:15 dcd_test_polypyrrole_1ns/Pores_ld.dat
+-rw-rw-r--      299390 2022/07/02 21:16:15 dcd_test_polypyrrole_1ns/Pores_n.dat
+-rw-r--r--         692 2022/07/02 14:29:45 dcd_test_polypyrrole_1ns/UFF.atoms
+-rw-rw-r--      299390 2022/07/02 21:13:32 dcd_test_polypyrrole_1ns/backup_Pores_n.dat
+-rw-rw-r--        7375 2022/07/02 21:13:32 dcd_test_polypyrrole_1ns/backup_cluster_info_n.dat
+-rw-rw-r--       24450 2022/07/02 21:16:15 dcd_test_polypyrrole_1ns/cluster_info_ld.dat
+-rw-rw-r--        7375 2022/07/02 21:16:15 dcd_test_polypyrrole_1ns/cluster_info_n.dat
+-rw-r--r--         544 2022/07/02 14:29:42 dcd_test_polypyrrole_1ns/defaults.dat
+-rw-rw-r--          45 2022/07/02 21:16:16 dcd_test_polypyrrole_1ns/eam.out
+-rw-r--r--          82 2022/07/02 20:52:01 dcd_test_polypyrrole_1ns/input.dat
+-rw-r--r--     1119768 2022/07/02 14:29:51 dcd_test_polypyrrole_1ns/membrane.xyz
+-rw-rw-r--      850190 2022/07/02 21:15:40 dcd_test_polypyrrole_1ns/new.xyz
+-rw-rw-r--           7 2022/07/02 17:58:01 dcd_test_polypyrrole_1ns/overflow
+-rw-rw-r--        3181 2022/07/02 21:16:16 dcd_test_polypyrrole_1ns/poreblazer.log
+-rw-rw-r--         555 2022/07/02 21:16:15 dcd_test_polypyrrole_1ns/spanning_n.dat
+-rw-------         415 2022/07/02 21:14:51 dcd_test_polypyrrole_1ns/submit.sh
+drwxrwsr-x        4096 2022/07/02 22:55:53 repository
+-rw-r--r--         692 2022/07/02 22:54:27 repository/UFF.atoms
+-rw-r--r--         780 2022/07/02 22:54:43 repository/create_index.tcl
+-rw-r--r--         544 2022/07/02 22:54:23 repository/defaults.dat
+-rw-r--r--          87 2022/07/02 22:54:18 repository/input.dat
+-rw-------         295 2022/07/02 22:55:53 repository/submit.sh
+drwxrwsr-x        4096 2022/07/02 08:19:03 test
+-rw-rw-r--       48412 2022/07/02 08:19:03 test/Pores.dat
+-rw-rw-r--        2218 2022/07/02 08:19:03 test/UFF.atoms
+-rw-rw-r--        2865 2022/07/02 08:19:03 test/WEI.xyz
+-rw-rw-r--        1825 2022/07/02 08:19:03 test/cluster_info.txt
+-rw-rw-r--         513 2022/07/02 08:19:03 test/defaults.dat
+-rw-rw-r--          45 2022/07/02 08:19:03 test/input.dat
+-rw-rw-r--        2802 2022/07/02 08:19:03 test/new.xyz
+-rw-rw-r--    19332695 2022/07/02 08:19:03 test/out
+-rw-rw-r--        7775 2022/07/02 08:19:03 test/results
+-rw-rw-r--          40 2022/07/02 08:19:03 test/run.bat
+-rw-rw-r--         686 2022/07/02 08:19:03 test/summary.dat
+-rw-rw-r--         686 2022/07/02 08:19:03 test/summary_backup.dat
+-rw-rw-r--          42 2022/07/02 08:19:03 test/time_gfortran
+
+sent 16 bytes  received 2828 bytes  1896.00 bytes/sec
+total size is 123020112  speedup is 43256.02
+building file list ... 
+ 0 files... 100 files...125 files to consider
+Makefile
+         700  16%    0.00kB/s    0:00:00        4333 100%    1.73MB/s    0:00:00 (xfer#1, to-check=124/125)
+README.md
+         284 100%    1.91kB/s    0:00:00         284 100%    1.91kB/s    0:00:00 (xfer#2, to-check=123/125)
+README.txt
+         700   5%    4.50kB/s    0:00:02       11941 100%   76.22kB/s    0:00:00 (xfer#3, to-check=122/125)
+adsorbent.mod
+         559 100%    3.52kB/s    0:00:00         559 100%    3.52kB/s    0:00:00 (xfer#4, to-check=121/125)
+atoms.mod
+         427 100%    1.90kB/s    0:00:00         427 100%    1.90kB/s    0:00:00 (xfer#5, to-check=120/125)
+backup_f90_percolation
+         700   1%    3.07kB/s    0:00:12       37720 100%  163.72kB/s    0:00:00 (xfer#6, to-check=119/125)
+defaults.f90
+         700  14%    3.01kB/s    0:00:01        4694 100%   20.19kB/s    0:00:00 (xfer#7, to-check=118/125)
+defaults.mod
+         700  47%    3.00kB/s    0:00:00        1468 100%    6.26kB/s    0:00:00 (xfer#8, to-check=117/125)
+defaults.o
+         700  69%    2.97kB/s    0:00:00        1008 100%    4.28kB/s    0:00:00 (xfer#9, to-check=116/125)
+distributions.mod
+         353 100%    1.49kB/s    0:00:00         353 100%    1.49kB/s    0:00:00 (xfer#10, to-check=115/125)
+fundcell.f90
+         700   1%    2.92kB/s    0:00:13       39009 100%  162.11kB/s    0:00:00 (xfer#11, to-check=114/125)
+fundcell.mod
+         700  28%    2.88kB/s    0:00:00        2446 100%   10.08kB/s    0:00:00 (xfer#12, to-check=113/125)
+fundcell.o
+         700   2%    2.86kB/s    0:00:09       28160 100%  114.58kB/s    0:00:00 (xfer#13, to-check=112/125)
+lattice.mod
+         668 100%    2.71kB/s    0:00:00         668 100%    2.71kB/s    0:00:00 (xfer#14, to-check=111/125)
+matrix.f90
+         700   2%    2.81kB/s    0:00:11       33238 100%  133.03kB/s    0:00:00 (xfer#15, to-check=110/125)
+matrix.mod
+         700  30%    2.78kB/s    0:00:00        2310 100%    9.17kB/s    0:00:00 (xfer#16, to-check=109/125)
+matrix.o
+         700   3%    2.76kB/s    0:00:06       18376 100%   72.36kB/s    0:00:00 (xfer#17, to-check=108/125)
+matrixops.f90
+         700  14%    2.73kB/s    0:00:01        4983 100%   19.46kB/s    0:00:00 (xfer#18, to-check=107/125)
+matrixops.mod
+         693 100%    2.70kB/s    0:00:00         693 100%    2.70kB/s    0:00:00 (xfer#19, to-check=106/125)
+matrixops.o
+         700  11%    2.70kB/s    0:00:01        5936 100%   22.91kB/s    0:00:00 (xfer#20, to-check=105/125)
+molecule.f90
+         700  57%    2.68kB/s    0:00:00        1216 100%    4.66kB/s    0:00:00 (xfer#21, to-check=104/125)
+nohup.out
+       11349 100%   43.29kB/s    0:00:00       11349 100%   43.29kB/s    0:00:00 (xfer#22, to-check=103/125)
+out
+         700   7%    2.65kB/s    0:00:03        8837 100%   33.45kB/s    0:00:00 (xfer#23, to-check=102/125)
+parameters.mod
+         700  56%    2.63kB/s    0:00:00        1237 100%    4.65kB/s    0:00:00 (xfer#24, to-check=101/125)
+percolation.f90
+         700   1%    2.61kB/s    0:00:13       36795 100%  136.63kB/s    0:00:00 (xfer#25, to-check=100/125)
+percolation.mod
+         545 100%    2.01kB/s    0:00:00         545 100%    2.01kB/s    0:00:00 (xfer#26, to-check=99/125)
+percolation.o
+        1400   3%    5.12kB/s    0:00:06       36064 100%  129.96kB/s    0:00:00 (xfer#27, to-check=98/125)
+poreblazer.exe
+        1400   0%    5.01kB/s    0:00:35      176912 100%  585.65kB/s    0:00:00 (xfer#28, to-check=97/125)
+poreblazer.f90
+         700   1%    2.29kB/s    0:00:21       49394 100%  161.33kB/s    0:00:00 (xfer#29, to-check=96/125)
+poreblazer.o
+        1400   1%    4.54kB/s    0:00:21       97216 100%  309.24kB/s    0:00:00 (xfer#30, to-check=95/125)
+random.f90
+         700   8%    2.21kB/s    0:00:03        8297 100%   26.14kB/s    0:00:00 (xfer#31, to-check=94/125)
+random.mod
+         578 100%    1.81kB/s    0:00:00         578 100%    1.81kB/s    0:00:00 (xfer#32, to-check=93/125)
+random.o
+         700  12%    2.19kB/s    0:00:02        5680 100%   17.78kB/s    0:00:00 (xfer#33, to-check=92/125)
+results.mod
+         381 100%    1.19kB/s    0:00:00         381 100%    1.19kB/s    0:00:00 (xfer#34, to-check=91/125)
+utils.f90
+         700   0%    2.16kB/s    0:00:33       72601 100%  222.95kB/s    0:00:00 (xfer#35, to-check=90/125)
+utils.mod
+         700  17%    1.86kB/s    0:00:01        4050 100%   10.78kB/s    0:00:00 (xfer#36, to-check=89/125)
+utils.o
+         700   1%    1.85kB/s    0:00:34       63880 100%  168.60kB/s    0:00:00 (xfer#37, to-check=88/125)
+vector.f90
+         700   2%    1.84kB/s    0:00:14       28227 100%   73.90kB/s    0:00:00 (xfer#38, to-check=87/125)
+vector.mod
+         700  29%    1.83kB/s    0:00:00        2385 100%    6.23kB/s    0:00:00 (xfer#39, to-check=86/125)
+vector.o
+         700   4%    1.82kB/s    0:00:09       17496 100%   45.44kB/s    0:00:00 (xfer#40, to-check=85/125)
+Membrane_quest_rep1_no_local_ancestor/
+Membrane_quest_rep1_no_local_ancestor/Pores.dat
+        4160   0%   10.36kB/s    0:27:54    17356682 100%   27.96MB/s    0:00:00 (xfer#41, to-check=83/125)
+Membrane_quest_rep1_no_local_ancestor/Pores_he.dat
+        4160   0%    6.44kB/s    0:44:55    17356682 100%   20.79MB/s    0:00:00 (xfer#42, to-check=82/125)
+Membrane_quest_rep1_no_local_ancestor/Pores_ld.dat
+        1128   0%    1.32kB/s    0:16:13     1284388 100%    1.44MB/s    0:00:00 (xfer#43, to-check=81/125)
+Membrane_quest_rep1_no_local_ancestor/Pores_n.dat
+        1432   0%    1.60kB/s    0:21:22     2056432 100%    2.19MB/s    0:00:00 (xfer#44, to-check=80/125)
+Membrane_quest_rep1_no_local_ancestor/UFF.atoms
+         692 100%    0.75kB/s    0:00:00         692 100%    0.75kB/s    0:00:00 (xfer#45, to-check=79/125)
+Membrane_quest_rep1_no_local_ancestor/backup.txt
+         700  19%    0.76kB/s    0:00:03        3650 100%    3.95kB/s    0:00:00 (xfer#46, to-check=78/125)
+Membrane_quest_rep1_no_local_ancestor/backup_Pores_n.dat
+        1432   0%    1.52kB/s    0:22:31     2056432 100%    2.08MB/s    0:00:00 (xfer#47, to-check=77/125)
+Membrane_quest_rep1_no_local_ancestor/backup_cluster_info.txt
+         700   3%    0.72kB/s    0:00:25       19300 100%   19.86kB/s    0:00:00 (xfer#48, to-check=76/125)
+Membrane_quest_rep1_no_local_ancestor/backup_cluster_info_n.dat
+         700  15%    0.72kB/s    0:00:05        4450 100%    4.57kB/s    0:00:00 (xfer#49, to-check=75/125)
+Membrane_quest_rep1_no_local_ancestor/backup_pores.dat
+        1064   0%    1.07kB/s    0:17:35     1132390 100%    1.10MB/s    0:00:00 (xfer#50, to-check=74/125)
+Membrane_quest_rep1_no_local_ancestor/backup_spanning_n.dat
+         666 100%    0.66kB/s    0:00:00         666 100%    0.66kB/s    0:00:00 (xfer#51, to-check=73/125)
+Membrane_quest_rep1_no_local_ancestor/cluster_info.txt
+         700  18%    0.69kB/s    0:00:04        3875 100%    3.83kB/s    0:00:00 (xfer#52, to-check=72/125)
+Membrane_quest_rep1_no_local_ancestor/cluster_info_he.dat
+         700  18%    0.69kB/s    0:00:04        3875 100%    3.82kB/s    0:00:00 (xfer#53, to-check=71/125)
+Membrane_quest_rep1_no_local_ancestor/cluster_info_ld.dat
+         700  31%    0.69kB/s    0:00:02        2225 100%    2.19kB/s    0:00:00 (xfer#54, to-check=70/125)
+Membrane_quest_rep1_no_local_ancestor/cluster_info_n.dat
+         700  15%    0.69kB/s    0:00:05        4450 100%    4.38kB/s    0:00:00 (xfer#55, to-check=69/125)
+Membrane_quest_rep1_no_local_ancestor/defaults.dat
+         546 100%    0.54kB/s    0:00:00         546 100%    0.54kB/s    0:00:00 (xfer#56, to-check=68/125)
+Membrane_quest_rep1_no_local_ancestor/input.dat
+         116 100%    0.11kB/s    0:00:00         116 100%    0.11kB/s    0:00:00 (xfer#57, to-check=67/125)
+Membrane_quest_rep1_no_local_ancestor/membr_rep1.xyz
+         728   0%    0.70kB/s    0:12:40        1456   0%    1.41kB/s    0:06:19      535003 100%  512.72kB/s    0:00:01 (xfer#58, to-check=66/125)
+Membrane_quest_rep1_no_local_ancestor/new.xyz
+         700   0%   31.07kB/s    0:00:08      261143 100%    9.96MB/s    0:00:00 (xfer#59, to-check=65/125)
+Membrane_quest_rep1_no_local_ancestor/out
+         700  19%   25.32kB/s    0:00:00        3609 100%  130.53kB/s    0:00:00 (xfer#60, to-check=64/125)
+Membrane_quest_rep1_no_local_ancestor/psd.txt
+         700  25%   23.57kB/s    0:00:00        2796 100%   94.15kB/s    0:00:00 (xfer#61, to-check=63/125)
+Membrane_quest_rep1_no_local_ancestor/psd_cumulative.txt
+         700  23%   22.05kB/s    0:00:00        2924 100%   92.11kB/s    0:00:00 (xfer#62, to-check=62/125)
+Membrane_quest_rep1_no_local_ancestor/spanning_he.dat
+          37 100%    1.17kB/s    0:00:00          37 100%    1.17kB/s    0:00:00 (xfer#63, to-check=61/125)
+Membrane_quest_rep1_no_local_ancestor/spanning_n.dat
+         666 100%   20.32kB/s    0:00:00         666 100%   20.32kB/s    0:00:00 (xfer#64, to-check=60/125)
+Membrane_quest_rep1_no_local_ancestor/z_percolated_clusters.dat
+         666 100%   19.71kB/s    0:00:00         666 100%   19.71kB/s    0:00:00 (xfer#65, to-check=59/125)
+dcd_test_polypyrrole/
+dcd_test_polypyrrole/1ns.dcd
+         992   0%   26.91kB/s    0:00:36      995924 100%   19.79MB/s    0:00:00 (xfer#66, to-check=57/125)
+dcd_test_polypyrrole/Pores_ld.dat
+        1456   0%   20.91kB/s    0:01:42     2138164 100%   22.16MB/s    0:00:00 (xfer#67, to-check=56/125)
+dcd_test_polypyrrole/Pores_n.dat
+        1344   0%   11.62kB/s    0:02:36     1821722 100%   12.97MB/s    0:00:00 (xfer#68, to-check=55/125)
+dcd_test_polypyrrole/UFF.atoms
+         692 100%    4.90kB/s    0:00:00         692 100%    4.90kB/s    0:00:00 (xfer#69, to-check=54/125)
+dcd_test_polypyrrole/cluster_info_ld.dat
+         700   5%    4.88kB/s    0:00:02       12750 100%   88.94kB/s    0:00:00 (xfer#70, to-check=53/125)
+dcd_test_polypyrrole/cluster_info_n.dat
+         700   4%    4.81kB/s    0:00:03       17200 100%  118.29kB/s    0:00:00 (xfer#71, to-check=52/125)
+dcd_test_polypyrrole/defaults.dat
+         544 100%    3.72kB/s    0:00:00         544 100%    3.72kB/s    0:00:00 (xfer#72, to-check=51/125)
+dcd_test_polypyrrole/eam.out
+           1 100%    0.01kB/s    0:00:00           1 100%    0.01kB/s    0:00:00 (xfer#73, to-check=50/125)
+dcd_test_polypyrrole/input.dat
+          87 100%    0.59kB/s    0:00:00          87 100%    0.59kB/s    0:00:00 (xfer#74, to-check=49/125)
+dcd_test_polypyrrole/membrane.dcd
+        6912   0%   45.92kB/s    0:17:20    47791380 100%   77.64MB/s    0:00:00 (xfer#75, to-check=48/125)
+dcd_test_polypyrrole/membrane.xyz
+        1056   0%    1.66kB/s    0:11:14     1119768 100%    1.68MB/s    0:00:00 (xfer#76, to-check=47/125)
+dcd_test_polypyrrole/new.xyz
+         920   0%    1.37kB/s    0:10:21      850190 100%    1.21MB/s    0:00:00 (xfer#77, to-check=46/125)
+dcd_test_polypyrrole/poreblazer.log
+         700   9%    1.01kB/s    0:00:06        7317 100%   10.60kB/s    0:00:00 (xfer#78, to-check=45/125)
+dcd_test_polypyrrole/spanning_n.dat
+         700  26%    1.01kB/s    0:00:01        2664 100%    3.85kB/s    0:00:00 (xfer#79, to-check=44/125)
+dcd_test_polypyrrole/submit.sh
+         415 100%    0.60kB/s    0:00:00         415 100%    0.60kB/s    0:00:00 (xfer#80, to-check=43/125)
+dcd_test_polypyrrole_1ns/
+dcd_test_polypyrrole_1ns/1ns.dcd
+         992   0%    1.43kB/s    0:11:36      995924 100%    1.38MB/s    0:00:00 (xfer#81, to-check=41/125)
+dcd_test_polypyrrole_1ns/Pores_ld.dat
+        1528   0%    2.10kB/s    0:18:34     2343229 100%    3.03MB/s    0:00:00 (xfer#82, to-check=40/125)
+dcd_test_polypyrrole_1ns/Pores_n.dat
+         700   0%    0.90kB/s    0:05:30      299390 100%  384.20kB/s    0:00:00 (xfer#83, to-check=39/125)
+dcd_test_polypyrrole_1ns/UFF.atoms
+         692 100%    0.89kB/s    0:00:00         692 100%    0.89kB/s    0:00:00 (xfer#84, to-check=38/125)
+dcd_test_polypyrrole_1ns/backup_Pores_n.dat
+         700   0%    0.88kB/s    0:05:40      299390 100%  372.92kB/s    0:00:00 (xfer#85, to-check=37/125)
+dcd_test_polypyrrole_1ns/backup_cluster_info_n.dat
+         700   9%    0.87kB/s    0:00:07        7375 100%    9.16kB/s    0:00:00 (xfer#86, to-check=36/125)
+dcd_test_polypyrrole_1ns/cluster_info_ld.dat
+         700   2%    0.87kB/s    0:00:27       24450 100%   30.26kB/s    0:00:00 (xfer#87, to-check=35/125)
+dcd_test_polypyrrole_1ns/cluster_info_n.dat
+         700   9%    0.86kB/s    0:00:07        7375 100%    9.11kB/s    0:00:00 (xfer#88, to-check=34/125)
+dcd_test_polypyrrole_1ns/defaults.dat
+         544 100%    0.67kB/s    0:00:00         544 100%    0.67kB/s    0:00:00 (xfer#89, to-check=33/125)
+dcd_test_polypyrrole_1ns/eam.out
+          45 100%    0.06kB/s    0:00:00          45 100%    0.06kB/s    0:00:00 (xfer#90, to-check=32/125)
+dcd_test_polypyrrole_1ns/input.dat
+          82 100%    0.10kB/s    0:00:00          82 100%    0.10kB/s    0:00:00 (xfer#91, to-check=31/125)
+dcd_test_polypyrrole_1ns/membrane.xyz
+        1056   0%    1.27kB/s    0:14:41     1119768 100%    1.29MB/s    0:00:00 (xfer#92, to-check=30/125)
+dcd_test_polypyrrole_1ns/new.xyz
+         920   0%    1.06kB/s    0:13:23      850190 100%  964.30kB/s    0:00:00 (xfer#93, to-check=29/125)
+dcd_test_polypyrrole_1ns/overflow
+           7 100%    0.01kB/s    0:00:00           7 100%    0.01kB/s    0:00:00 (xfer#94, to-check=28/125)
+dcd_test_polypyrrole_1ns/poreblazer.log
+         700  22%    0.79kB/s    0:00:03        3181 100%    3.58kB/s    0:00:00 (xfer#95, to-check=27/125)
+dcd_test_polypyrrole_1ns/spanning_n.dat
+         555 100%    0.62kB/s    0:00:00         555 100%    0.62kB/s    0:00:00 (xfer#96, to-check=26/125)
+dcd_test_polypyrrole_1ns/submit.sh
+         415 100%    0.47kB/s    0:00:00         415 100%    0.47kB/s    0:00:00 (xfer#97, to-check=25/125)
+polypyrrole_lc/
+polypyrrole_lc/UFF.atoms
+         692 100%    0.78kB/s    0:00:00         692 100%    0.78kB/s    0:00:00 (xfer#98, to-check=23/125)
+polypyrrole_lc/backup_Pores_n.dat
+       32768  31%   36.36kB/s    0:00:01      104174 100%  115.34kB/s    0:00:00 (xfer#99, to-check=22/125)
+polypyrrole_lc/backup_cluster_info_n.dat
+        3025 100%    3.35kB/s    0:00:00        3025 100%    3.35kB/s    0:00:00 (xfer#100, to-check=21/125)
+polypyrrole_lc/defaults.dat
+         544 100%    0.60kB/s    0:00:00         544 100%    0.60kB/s    0:00:00 (xfer#101, to-check=20/125)
+polypyrrole_lc/input.dat
+          85 100%    0.09kB/s    0:00:00          85 100%    0.09kB/s    0:00:00 (xfer#102, to-check=19/125)
+polypyrrole_lc/membrane.dcd
+       32768   0%   36.08kB/s    0:22:03     2359296   4%    2.18MB/s    0:00:20     3768320   7%    1.77MB/s    0:00:24     4456448   9%    1.39MB/s    0:00:30     5898240  12%    1.36MB/s    0:00:30building file list ... 
+ 0 files... 100 files...125 files to consider
+nohup.out
+         700   2%    0.00kB/s    0:00:00       23499 100%   10.87MB/s    0:00:00 (xfer#1, to-check=103/125)
+Membrane_quest_rep1_no_local_ancestor/
+dcd_test_polypyrrole/
+dcd_test_polypyrrole_1ns/
+polypyrrole_lc/
+polypyrrole_lc/membrane.dcd
+       32768   0%    6.25MB/s    0:00:07     6782976  14% 1005.35kB/s    0:00:40     3014656   6%    2.77MB/s    0:00:15     7340032  15%  784.88kB/s    0:00:51     3899392   8%    1.75MB/s    0:00:24     8060928  16%  788.00kB/s    0:00:50     4456448   9%    1.30MB/s    0:00:32     9043968  18%  700.41kB/s    0:00:55     4947968  10%    1.11MB/s    0:00:37     9764864  20%  694.66kB/s    0:00:54     5472256  11%  551.98kB/s    0:01:16    10584064  22%  760.62kB/s    0:00:48     6062080  12%  469.96kB/s    0:01:28    11337728  23%  761.00kB/s    0:00:47     6782976  14%  513.45kB/s    0:01:19    11927552  24%  670.00kB/s    0:00:53     7503872  15%  558.14kB/s    0:01:12    12615680  26%  655.06kB/s    0:00:53     8093696  16%  584.74kB/s    0:01:07    13500416  28%  664.80kB/s    0:00:51rsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at /System/Volumes/Data/SWE/macOS/BuildRoots/220e8a1b79/Library/Caches/com.apple.xbs/Sources/rsync/rsync-55/rsync/rsync.c(244) [sender=2.6.9]
+    14647296  30%  761.73kB/s    0:00:43    15925248  33%  912.79kB/s    0:00:34    17203200  35%    1.03MB/s    0:00:28    18481152  38%    1.16MB/s    0:00:24    19791872  41%    1.20MB/s    0:00:22    21102592  44%    1.19MB/s    0:00:21    22380544  46%    1.18MB/s    0:00:20    23691264  49%    1.18MB/s    0:00:19    25001984  52%    1.18MB/s    0:00:18    26312704  55%    1.18MB/s    0:00:17    27590656  57%    1.18MB/s    0:00:16    28901376  60%    1.18MB/s    0:00:15    30212096  63%    1.18MB/s    0:00:14    31522816  65%    1.18MB/s    0:00:13    32800768  68%    1.19MB/s    0:00:12    34111488  71%    1.19MB/s    0:00:11    35422208  74%    1.20MB/s    0:00:10    36732928  76%    1.21MB/s    0:00:08    38043648  79%    1.21MB/s    0:00:07    39321600  82%    1.20MB/s    0:00:06    40632320  85%    1.20MB/s    0:00:05    41648128  87%    1.12MB/s    0:00:05    42663936  89%    1.04MB/s    0:00:04    43515904  91%  970.39kB/s    0:00:04    44695552  93%  942.97kB/s    0:00:03    45744128  95%  972.53kB/s    0:00:02    46858240  98%  996.84kB/s    0:00:00    47791380 100%    1.04MB/s    0:00:43 (xfer#103, to-check=18/125)
+polypyrrole_lc/new.xyz
+       32768   7%   42.84kB/s    0:00:09      419895 100%  505.61kB/s    0:00:00 (xfer#104, to-check=17/125)
+polypyrrole_lc/out
+        2969 100%    3.55kB/s    0:00:00        2969 100%    3.55kB/s    0:00:00 (xfer#105, to-check=16/125)
+polypyrrole_lc/polypyrrole.xyz
+       32768   5%   37.56kB/s    0:00:13      196608  35%  177.94kB/s    0:00:02      553038 100%  461.60kB/s    0:00:01 (xfer#106, to-check=15/125)
+polypyrrole_lc/spanning_n.dat
+         370 100%    3.80kB/s    0:00:00         370 100%    3.80kB/s    0:00:00 (xfer#107, to-check=14/125)
+test/
+test/Pores.dat
+         700   1%    6.21kB/s    0:00:07       48412 100%  425.92kB/s    0:00:00 (xfer#108, to-check=12/125)
+test/UFF.atoms
+         700  31%    5.94kB/s    0:00:00        2218 100%   18.83kB/s    0:00:00 (xfer#109, to-check=11/125)
+test/WEI.xyz
+         700  24%    5.74kB/s    0:00:00        2865 100%   23.51kB/s    0:00:00 (xfer#110, to-check=10/125)
+test/cluster_info.txt
+         700  38%    5.60kB/s    0:00:00        1825 100%   14.61kB/s    0:00:00 (xfer#111, to-check=9/125)
+test/defaults.dat
+         513 100%    4.01kB/s    0:00:00         513 100%    4.01kB/s    0:00:00 (xfer#112, to-check=8/125)
+test/input.dat
+          45 100%    0.35kB/s    0:00:00          45 100%    0.35kB/s    0:00:00 (xfer#113, to-check=7/125)
+test/new.xyz
+         700  24%    5.26kB/s    0:00:00        2802 100%   20.89kB/s    0:00:00 (xfer#114, to-check=6/125)
+test/out
+        4392   0%   31.31kB/s    0:10:17    19332695 100%   51.94MB/s    0:00:00 (xfer#115, to-check=5/125)
+test/results
+         700   9%    1.89kB/s    0:00:03        7775 100%   20.97kB/s    0:00:00 (xfer#116, to-check=4/125)
+test/run.bat
+          40 100%    0.11kB/s    0:00:00          40 100%    0.11kB/s    0:00:00 (xfer#117, to-check=3/125)
+test/summary.dat
+         686 100%    1.83kB/s    0:00:00         686 100%    1.83kB/s    0:00:00 (xfer#118, to-check=2/125)
+test/summary_backup.dat
+         686 100%    1.82kB/s    0:00:00         686 100%    1.82kB/s    0:00:00 (xfer#119, to-check=1/125)
+test/time_gfortran
+          42 100%    0.11kB/s    0:00:00          42 100%    0.11kB/s    0:00:00 (xfer#120, to-check=0/125)
+
+sent 43718918 bytes  received 240875 bytes  906387.48 bytes/sec
+total size is 171901045  speedup is 3.91
+building file list ... 
+ 0 files... 100 files...125 files to consider
+nohup.out
+         700   2%    0.00kB/s    0:00:00       28340 100%   26.36MB/s    0:00:00 (xfer#1, to-check=103/125)
+
+sent 4111 bytes  received 246 bytes  2904.67 bytes/sec
+total size is 171920602  speedup is 39458.48
