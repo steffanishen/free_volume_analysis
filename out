@@ -1,0 +1,184 @@
+26a27
+>         real :: sigma_he,sigma_n
+32c33
+<         real*8, allocatable :: coords(:, :)              ! coordinates of the adsorbent (natoms long array)
+---
+>         real, allocatable :: coords(:, :)              ! coordinates of the adsorbent (natoms long array)
+116c117
+< call helium_lattice              ! returns lattice accessible to helium
+---
+> !call helium_lattice              ! returns lattice accessible to helium
+120c121
+< call helium_volume               ! helium volume
+---
+> !call helium_volume               ! helium volume
+122c123
+< call surface_area                ! accessible surface area
+---
+> !call surface_area                ! accessible surface area
+168c169
+<     real*8                                :: sigma_he, eps_he, sigma_n                  ! sigma (A) and epsilon (K) of helium; sigma (A) of nitrogen atom
+---
+>     real*8                                ::  eps_he ! sigma (A) and epsilon (K) of helium; sigma (A) of nitrogen atom
+188c189
+<         read(*,*) filename2  !  name of the xyz coordinates file
+---
+>         read(*,*) filename2  !  name of the xyz coordinates file, *.xyz
+196c197
+<     read(3,*) filename1  !  name of the atom types file
+---
+>     read(3,*) filename1  !  name of the atom types file, UFF.atom
+257c258,259
+<     coords(3, :) = coords(3, :) - minval(coords(3, :))
+---
+> !    coords(3, :) = coords(3, :) - minval(coords(3, :))
+>     coords(3, :) = coords(3, :) + 29.0
+398c400,401
+<     real*8                             :: sigma, sigma6, sigma12,  sig2_rdist2, lj_energy
+---
+>     real*8  rdist_surface_ref2
+>     real*8                             :: sigma, sigma6, sigma12,  sig2_rdist2, lj_energy, xmin,ymin,zmin
+400a404,422
+>     integer,allocatable :: ncubez(:) !Meng
+>        character*80      :: filenamedcd='Membrane_after_23ns.dcd'
+>        double precision  :: dimen(6)
+>        real              :: time,dummyr
+>        integer           :: nset,natom,dummyi,nframes,ii,jj
+>        character*4       :: dummyc
+>         
+> 
+>     allocate(ncubez(ncubesz)) !Meng
+>     ncubez = 0
+> !        open(1500,file='new1.xyz')
+> !        write(1500,*) natoms     !  number of atoms in the strucutre
+> 
+> !        write(1500,*)
+> 
+>        open(101,file=trim(filenamedcd),status='old',form='unformatted')
+>        read(101) dummyc, nframes, (dummyi,i=1,8), dummyr, (dummyi,i=1,9)
+>        read(101) dummyi, dummyr
+>        read(101) natom
+401a424
+>       write(*,*)natom,natoms,nframes !Meng: debug
+412a436,468
+>     do ii=1,nframes
+> 
+>            read(101) (dimen(jj), jj=1, 6)
+>            write(*,*) (dimen(jj), jj=1, 6)
+>            read(101) (coords(1,jj),jj=1,natom)
+>            read(101) (coords(2,jj),jj=1,natom)
+>            read(101) (coords(3,jj),jj=1,natom)
+> 
+>         write(*,*) 'ii=',ii
+>         do jj=1,natom
+>            if(coords(1,jj).lt.-dimen(1)/2.0) coords(1,jj) = coords(1,jj) + dimen(1)
+>            if(coords(1,jj).gt.dimen(1)/2.0) coords(1,jj) = coords(1,jj) - dimen(1)
+> 
+>            if(coords(2,jj).lt.-dimen(3)/2.0) coords(2,jj) = coords(2,jj) + dimen(3)
+>            if(coords(2,jj).gt.dimen(3)/2.0) coords(2,jj) = coords(2,jj) - dimen(3)
+>         end do
+> 
+>         xmin = minval (coords(1,:))
+>         ymin = minval (coords(2,:))
+>         zmin = -29.0
+>         
+>         do i = 1, natoms
+>                     coords(1,i) = coords(1,i) - xmin
+>                     coords(2,i) = coords(2,i) - ymin
+>                     coords(3,i) = coords(3,i) - zmin
+> 
+>                     matvec(i)%comp = coords(:,i)
+> !                    write(*,*) i,adsname(i),coords(1,i),coords(2,i),coords(3,i)
+> !                    write(1500,'(a, 3f10.5)') adsname(i), coords(1, i), coords(2, i), coords(3, i)
+> !                    write(1500,*) i,adsname(i), coords(1, i), coords(2, i), coords(3, i)
+> !                    write(1500,*) i
+>         end do
+>  
+430a487,488
+>                         
+> 
+451,457c509,515
+<                     if(rdist2<hicut2) then                            ! ignore the atom i if it is beyond the cutoff radius
+<                         sig2_rdist2 = asigma2_he(atype(i))/rdist2         ! if an atom is within the cut-off, this is a convinient place to calculate its Lennard-Jones interaction
+<                         rdist6 = sig2_rdist2*sig2_rdist2*sig2_rdist2                         ! with a helium atom placed in the center of the cubelet icount for later use in the helium volume calculation
+<                         rdist12 = rdist6*rdist6                           ! based in the second virial approach
+<                         lj_energy  = aeps_he(atype(i))*(rdist12-rdist6)
+<                         lattice_lj_he(icount) = lattice_lj_he(icount) + lj_energy
+<                     end if
+---
+> !                    if(rdist2<hicut2) then                            ! ignore the atom i if it is beyond the cutoff radius
+> !                        sig2_rdist2 = asigma2_he(atype(i))/rdist2         ! if an atom is within the cut-off, this is a convinient place to calculate its Lennard-Jones interaction
+> !                        rdist6 = sig2_rdist2*sig2_rdist2*sig2_rdist2                         ! with a helium atom placed in the center of the cubelet icount for later use in the helium volume calculation
+> !                        rdist12 = rdist6*rdist6                           ! based in the second virial approach
+> !                        lj_energy  = aeps_he(atype(i))*(rdist12-rdist6)
+> !                        lattice_lj_he(icount) = lattice_lj_he(icount) + lj_energy
+> !                    end if
+464c522,523
+<                 lattice_space(j,k,l) = 1                          ! otherwise we add it to the list of geometrically accessible cubelets lattice_space(j,k,l) = 1
+---
+>                 if(lattice_space(j,k,l).eq.0) then
+>                         lattice_space(j,k,l) = 1                          ! otherwise we add it to the list of geometrically accessible cubelets lattice_space(j,k,l) = 1
+470a530
+>                 end if
+472c532,533
+<                 lattice_rdist2(j,k,l) = rdist_surface_ref*rdist_surface_ref ! lattice_rdist2(j,k,l) stores the shortest squared distance between cubelet j, k, l and nearest atom (without overlap)
+---
+>                 rdist_surface_ref2 = rdist_surface_ref*rdist_surface_ref
+>                 if(lattice_rdist2(j,k,l).lt.rdist_surface_ref2) lattice_rdist2(j,k,l) = rdist_surface_ref2 ! lattice_rdist2(j,k,l) stores the shortest squared distance between cubelet j, k, l and nearest atom (without overlap)
+474c535,537
+<                 if(rdist2_ref>0.25*asigma2_he(atype(amin))) then  ! next few lines detect if the cubelet is accessible to helium atom and update the list of
+---
+>                 !if(rdist2_ref>0.25*asigma2_he(atype(amin))) then  ! next few lines detect if the cubelet is accessible to helium atom and update the list of
+>                 if(lattice_rdist2(j,k,l)>0.25*sigma_he*sigma_he) then  !Meng next few lines detect if the cubelet is accessible to helium atom and update the list of
+>                   if(lattice_space_he(j,k,l).eq.0) then
+478a542
+>                   end if
+481c545,547
+<                 if(rdist2_ref>asigma2_n(atype(amin))) then        ! next few lines detect if the cubelet is accessible to nitrogen atom and update the list of
+---
+> !                if(rdist2_ref>asigma2_n(atype(amin))) then        ! next few lines detect if the cubelet is accessible to nitrogen atom and update the list of
+>                 if(lattice_rdist2(j,k,l)>0.25*sigma_n*sigma_n) then  !Meng next few lines detect if the cubelet is accessible to nitrogen atom and update the list of
+>                   if(lattice_space_n(j,k,l).eq.0) then
+485a552,553
+>                     ncubez(l) = ncubez(l) +1                        !Meng
+>                   end if
+490a559,560
+> 
+>     end do
+491a562,565
+>     do l = 1,ncubesz
+>         write(200,*) l,ncubez(l)
+>     end do
+> 
+499a574,575
+>     deallocate(ncubez)
+> 
+810c886
+<                 if(lattice_space(j,k,l)<1) cycle
+---
+>                 if(lattice_space(j,k,l)<1.or.l.le.ncubesz*0.1625.or.l.ge.ncubesz*0.781) cycle
+820c896,900
+<     call sort(ng_cubes,PA1,PA2,PA3,PA4)
+---
+> !    write(*,*) 0,"Nbins = ",nbins,"bin = ",bin
+> 
+>     call sort(icount,PA1,PA2,PA3,PA4)
+> 
+>  !   write(*,*) 0.1,"Nbins = ",nbins,"bin = ",bin
+824a905
+> !        write(*,*) 0.2,"Nbins = ",nbins,"bin = ",bin
+844c925
+<         do j=ng_cubes, 1, -1  ! now we go through all  cubelets and see if point atvec1 is within the
+---
+>         do j=icount, 1, -1  ! now we go through all  cubelets and see if point atvec1 is within the
+874c955
+< 
+---
+> !        write(*,*) "Nbins = ",nbins,"bin = ",bin
+1133c1214,1217
+<     if(jstack.gt.NSTACK)pause 'NSTACK too small in sort2'
+---
+>     if(jstack.gt.NSTACK)then
+>         write(*,*) 'NSTACK too small in sort2'
+>         STOP
+>     end if

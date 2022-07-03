@@ -1,0 +1,259 @@
+ !-------------------------------------------------------!
+ ! Welcome to Poreblazer_v3.0.2/Linux/Windows XP         !
+ ! Developed by: Lev Sarkisov, 2012                      !
+ ! Cite: Sarkisov, Harrison, Molecular Simulation, 2011  !
+ !-------------------------------------------------------!
+
+ Step 1/8
+ !-------------------------------------------------------!
+ ! Proceed with initialization and data input            !
+ !-------------------------------------------------------!
+
+ filename2::::::::::::::::
+ membrane.xyz                                                                                                                                                                                                                                                    
+ filename2::::::::::::::::
+ membrane.dcd                                                                    
+ !-------------------------------------------------------!
+ ! Initialization complete                               !
+ !-------------------------------------------------------!
+
+ Step 2/8
+ !-------------------------------------------------------!
+ ! Starting preliminary lattice calculations             !
+ !-------------------------------------------------------!
+
+ iframe:            1
+ iframe:            2
+ iframe:            3
+ iframe:            4
+ iframe:            5
+ iframe:            6
+ iframe:            7
+ iframe:            8
+ iframe:            9
+ iframe:           10
+ iframe:           11
+ iframe:           12
+ iframe:           13
+ iframe:           14
+ iframe:           15
+ iframe:           16
+ iframe:           17
+ iframe:           18
+ iframe:           19
+ iframe:           20
+ iframe:           21
+ iframe:           22
+ iframe:           23
+ iframe:           24
+ iframe:           25
+ iframe:           26
+ iframe:           27
+ iframe:           28
+ iframe:           29
+ iframe:           30
+ iframe:           31
+ iframe:           32
+ iframe:           33
+ iframe:           34
+ iframe:           35
+ iframe:           36
+ iframe:           37
+ iframe:           38
+ iframe:           39
+ iframe:           40
+ iframe:           41
+ iframe:           42
+ iframe:           43
+ iframe:           44
+ iframe:           45
+ iframe:           46
+ iframe:           47
+ iframe:           48
+ iframe:           49
+ iframe:           50
+ iframe:           51
+ iframe:           52
+ iframe:           53
+ iframe:           54
+ iframe:           55
+ iframe:           56
+ iframe:           57
+ iframe:           58
+ iframe:           59
+ iframe:           60
+ iframe:           61
+ iframe:           62
+ iframe:           63
+ iframe:           64
+ iframe:           65
+ iframe:           66
+ iframe:           67
+ iframe:           68
+ iframe:           69
+ iframe:           70
+ iframe:           71
+ iframe:           72
+ iframe:           73
+ iframe:           74
+ iframe:           75
+ iframe:           76
+ iframe:           77
+ iframe:           78
+ iframe:           79
+ iframe:           80
+ iframe:           81
+ iframe:           82
+ iframe:           83
+ iframe:           84
+ iframe:           85
+ iframe:           86
+ iframe:           87
+ iframe:           88
+ iframe:           89
+ iframe:           90
+ iframe:           91
+ iframe:           92
+ iframe:           93
+ iframe:           94
+ iframe:           95
+ iframe:           96
+ iframe:           97
+ iframe:           98
+ iframe:           99
+ iframe:          100
+ iframe:          101
+ iframe:          102
+ iframe:          103
+ iframe:          104
+ iframe:          105
+ iframe:          106
+ iframe:          107
+ iframe:          108
+ iframe:          109
+ iframe:          110
+ iframe:          111
+ iframe:          112
+ iframe:          113
+ iframe:          114
+ iframe:          115
+ iframe:          116
+ iframe:          117
+ iframe:          118
+ iframe:          119
+ iframe:          120
+ iframe:          121
+ iframe:          122
+ iframe:          123
+ iframe:          124
+ iframe:          125
+ iframe:          126
+ iframe:          127
+ iframe:          128
+ iframe:          129
+ iframe:          130
+ iframe:          131
+ iframe:          132
+ iframe:          133
+ iframe:          134
+ iframe:          135
+ iframe:          136
+ iframe:          137
+ iframe:          138
+ iframe:          139
+ iframe:          140
+ iframe:          141
+ iframe:          142
+ iframe:          143
+ iframe:          144
+ iframe:          145
+ iframe:          146
+ iframe:          147
+ iframe:          148
+ iframe:          149
+ iframe:          150
+ iframe:          151
+ iframe:          152
+ iframe:          153
+ iframe:          154
+ iframe:          155
+ iframe:          156
+ iframe:          157
+ iframe:          158
+ iframe:          159
+ iframe:          160
+ iframe:          161
+ iframe:          162
+ iframe:          163
+ iframe:          164
+ iframe:          165
+ iframe:          166
+ iframe:          167
+ iframe:          168
+ iframe:          169
+ iframe:          170
+ iframe:          171
+ iframe:          172
+ iframe:          173
+ iframe:          174
+ iframe:          175
+ iframe:          176
+ iframe:          177
+ iframe:          178
+ iframe:          179
+ iframe:          180
+ iframe:          181
+ iframe:          182
+ iframe:          183
+ iframe:          184
+ iframe:          185
+ iframe:          186
+ iframe:          187
+ iframe:          188
+ iframe:          189
+ iframe:          190
+ iframe:          191
+ iframe:          192
+ --------ng_cubes------------      813548
+ !-------------------------------------------------------!
+ ! Preliminary lattice complete                          !
+ !-------------------------------------------------------!
+
+ Step 4/8
+ !-------------------------------------------------------!
+ ! Generation of nitrogen-accessible lattice             !
+ !-------------------------------------------------------!
+
+ ----------done clusteranalysis---------
+ ----------done spanning---------
+ !-------------------------------------------------------!
+ ! Generation of nitrogen-accessible lattice complete    !
+ !-------------------------------------------------------!
+
+ Step 6/8
+ !-------------------------------------------------------!
+ ! Starting surface area calculations                    !
+ !-------------------------------------------------------!
+
+ Step 7/8
+ !-------------------------------------------------------!
+ ! Starting pore size distribution calculations          !
+ !-------------------------------------------------------!
+
+ Step 8/8
+ !-------------------------------------------------------!
+ ! Starting limiting pore diameter and maximum pore size !
+ ! analysis                                              !
+ !-------------------------------------------------------!
+
+ Pore limiting diameter in A:         2.45
+ Maximum pore diameter in A:          5.24
+  The system is percolated in            1  dimension (channels)
+ !-------------------------------------------------------!
+ ! Limiting pore diameter and maximum pore size          !
+ ! analysis complete                                     !
+ !-------------------------------------------------------!
+
+ !-------------------------------------------------------!
+ ! Simulation complete                                   !
+ !-------------------------------------------------------!
