@@ -421,6 +421,8 @@ real              :: dummyr
 integer :: iframe
 integer           :: nset,natomdcd,dummyi,nframes
 character*4       :: dummyc
+real*8 :: nngrids
+real*8 :: cumulated_volume_fraction
 
 ! getarg retrieves command line arguments, and sets first to "filename"
 
@@ -567,8 +569,9 @@ do iframe = 1, nframes
                     if (lattice_space_n(j,k,l) == 0) then
                         nn_cubes = nn_cubes + 1
                         n_cubes(nn_cubes) = icount
-                        lattice_space_n(j,k,l) = 1                    ! nitrogen accessible cubelets lattice_space_N(j,k,l)
                     end if
+
+                    lattice_space_n(j,k,l) = lattice_space_n(j,k,l) + 1   ! nitrogen accessible cubelets lattice_space_N(j,k,l)
                 end if
 
             end do
@@ -585,6 +588,25 @@ write(*,*) "--------ng_cubes------------",ng_cubes !Meng debug
 
     allocate(PA1(ng_cubes), PA2(ng_cubes), PA3(ng_cubes), PA4(ng_cubes))
 
+open(unit=500,file='free_volume_count_n.dat')
+
+nngrids = 0.0
+    do l=1, ncubesz
+        do k=1, ncubesy
+            do j=1, ncubesx
+                write(500,*) j,k,l,lattice_space_n(j,k,l)
+                nngrids = nngrids + real(lattice_space_n(j,k,l))
+            end do
+        end do
+    end do
+
+close(500)
+
+nngrids = nngrids/(real(ncubesx)*real(ncubesy)*real(ncubesz)*real(nframes))*100.0
+write(*,'(A63,F5.2,A2)') 'Volume fraction of the water accessible free volume per frame: ',nngrids,' %'
+
+cumulated_volume_fraction = real(nn_cubes)/(real(ncubesx)*real(ncubesy)*real(ncubesz))*100.0
+write(*,'(A63,F5.2,A2)') 'Volume fraction of the cumulated water accessible free volume: ',cumulated_volume_fraction,' %'
 
 !-------------------check parallel computing sum variables---------------------
 !    do l=1, ncubesz
@@ -1014,7 +1036,7 @@ subroutine pore_distribution
             psd_cumul(m)=psd_cumul(m)+1                    ! update cumulative distribution
         end do
   
-        write(*,*) "output MC step: ", i
+!        write(*,*) "output MC step: ", i
 
     end do
 

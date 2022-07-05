@@ -111,7 +111,7 @@ Contains
         do k=1, LZ
             do j=1, LY
                 do i=1, LX
-                   If(ngrid(i,j,k) == 1) Then
+                   If(ngrid(i,j,k) >= 1) Then
                        If(cluster(i,j,k) /= 0) cycle
 
                        Call reveal_local(i,j,k,cluster,ngrid,local, scenario)
@@ -321,7 +321,7 @@ Contains
         If(i1<1) i1=size(cluster,1)
         If(i1>size(cluster,1)) i1 = 1
 
-        If(ngrid(i1,j1,k1)==1) Then
+        If(ngrid(i1,j1,k1)>=1) Then
            If(cluster(i1,j1,k1)/=0) Then
            !local(ic) = cluster(i1,j1,k1)  !Meng
 

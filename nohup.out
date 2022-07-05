@@ -385,8 +385,3 @@ sent 43718918 bytes  received 240875 bytes  906387.48 bytes/sec
 total size is 171901045  speedup is 3.91
 building file list ... 
  0 files... 100 files...125 files to consider
-nohup.out
-         700   2%    0.00kB/s    0:00:00       28340 100%   26.36MB/s    0:00:00 (xfer#1, to-check=103/125)
-
-sent 4111 bytes  received 246 bytes  2904.67 bytes/sec
-total size is 171920602  speedup is 39458.48
